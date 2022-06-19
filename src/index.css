@@ -16,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 10px;
-  box-shadow: 0px 1px 0px 0px rgb(199, 201, 214);
+  box-shadow: 0px 8px 5px -5px rgb(199, 201, 214);
   /* box-shadow: 0px 0px 10px ; */
   /* border-bottom: 1px solid rgb(115, 145, 245); */
   color: blue;
@@ -53,7 +53,7 @@ a:hover {
 }
 
 .blog-preview:hover{
-  box-shadow: 0px 1px 10px 0px rgb(199, 201, 214);
+  box-shadow: 0px 0px 8px 0px rgb(199, 201, 214);
 }
 
 .blog-preview span{
