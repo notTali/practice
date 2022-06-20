@@ -7,11 +7,17 @@ const Home = () => {
         {title: "Django & React", body:'Lorem ipsum dolor sit amet.', author:"Rili", id: 3},
         {title: "HTML & CSS website", body:'Lorem ipsum dolor sit amet.', author:"Rili", id: 4},
     ]);
+
+    const handleDelete = function(id) {
+       const newBlogs = blogs.filter((blog)=> blog.id !== id);
+       setBlogs(newBlogs);
+    }
     
     return ( 
         <div className="home">
-            <BlogList blogs={blogs} title={"All blogs"} />
-            <BlogList blogs={blogs.filter((blog)=> blog.author==='Rili')} title={"Written by Rilinde"} />
+            <BlogList blogs={blogs} title={"All blogs"} handleDelete={handleDelete}/>
+            {/* <BlogList blogs={blogs.filter((blog)=> blog.author==='Rili')} title={"Written by Rili"} />
+            <BlogList blogs={blogs.filter((blog)=> blog.author==='Tali')} title={"Written by Tali"} /> */}
         </div>
      );
 }
