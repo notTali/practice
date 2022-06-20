@@ -7,7 +7,7 @@
     ;
     width: fit-content;
     height: fit-content;
-    background-color: #FFECEC;
+    background-color: #ECF2FF;
     padding-bottom: 5px;
     border-radius: 20px;
     box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.25);
@@ -16,7 +16,7 @@
 .card-name{
     padding: 5px 20px;
     grid-area: name;
-    background-color: #9C1818;
+    background-color: #1549AE;
     color: white;
     border-radius: 20px 20px 0px 0px;
 }
@@ -31,7 +31,7 @@
 }
 
 .card-right{
-    width: 8rem;
+    width: 7rem;
     padding-left: 10%;
     grid-area: right;
     display: flex;
@@ -41,12 +41,12 @@
 }
 
 ul{
-    
     padding: 0;
     list-style-type: none;
 }
 
 ul li {
+    font-size: .8rem;
     margin-bottom: 5px;
     color: grey;
 }
@@ -62,7 +62,7 @@ ul li:nth-child(5) {
 }
 
 .now{
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: rgb(0, 0, 0);
 }
